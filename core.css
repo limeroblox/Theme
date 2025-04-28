@@ -1,0 +1,47 @@
+/* DreamFusion Core Theme */
+
+body,
+.appMount-2yBXZl, .app-2CXKsg {
+  background: var(--background-image) no-repeat center center / cover fixed;
+  background-color: rgba(0,0,0,0.8);
+  backdrop-filter: blur(var(--background-blur));
+  filter: brightness(var(--background-brightness));
+}
+
+/* Main backgrounds transparency */
+.theme-dark .container-1eFtFS,
+.theme-dark .chat-2ZfjoI,
+.theme-dark .content-1SgpWY,
+.theme-dark .sidebar-1tnWFu,
+.theme-dark .membersWrap-3NUR2t,
+.theme-dark .panels-3wFtMD,
+.theme-dark .title-31SJ6t {
+  background-color: rgba(0, 0, 0, var(--opacity)) !important;
+  border-radius: var(--border-radius);
+}
+
+/* Accent highlights */
+.theme-dark .modeSelected-3DmyhH,
+.theme-dark .modeUnread-1zpFdA {
+  background-color: rgba(var(--accent-color), 0.2);
+}
+
+/* Accent buttons */
+.button-38aScr {
+  background-color: rgba(var(--accent-color), 0.15);
+  color: rgb(var(--accent-color));
+  border-radius: var(--border-radius);
+}
+.button-38aScr:hover {
+  background-color: rgba(var(--accent-color), 0.25);
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
+}
+
+/* Custom font */
+body, .app-2CXKsg {
+  font-family: var(--font), sans-serif;
+}
