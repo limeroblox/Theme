@@ -1,0 +1,19 @@
+/* Add a clean custom titlebar for Discord on Windows */
+
+.typeWindows-2-g3UY {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.wordmarkWindows-2dq6rw {
+  display: none;
+}
+
+.winButton-3UMjdg {
+  filter: brightness(1.2);
+  margin-left: auto;
+}
