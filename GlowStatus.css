@@ -1,0 +1,24 @@
+/* Glow around user status icons */
+
+.avatar-2e8lTP {
+  position: relative;
+  z-index: 1;
+}
+
+.avatar-2e8lTP::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(var(--accent-color), var(--accent-glow-strength)) 0%, transparent 70%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Status Ring colors */
+.status-1bmmru {
+  box-shadow: 0 0 8px var(--gs-online-color);
+}
