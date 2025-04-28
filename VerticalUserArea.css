@@ -1,0 +1,22 @@
+/* Move mute/deafen/settings vertically into the server list sidebar */
+
+.container-YkUktl {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-YkUktl .button-12Fmur {
+  margin: 6px 0;
+}
+
+/* Adjust server list padding */
+.guilds-2JjMmN {
+  padding-top: 80px; /* Move servers down to leave room for new controls */
+}
+
+/* Tweak icon appearance */
+.button-12Fmur svg {
+  width: 28px;
+  height: 28px;
+}
